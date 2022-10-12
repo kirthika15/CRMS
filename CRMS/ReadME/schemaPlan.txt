@@ -28,13 +28,12 @@ ConfRoomLocation
 Bookings Table
 -----------------------
 BookingID,
-BookedRoomID,
 ConfRoomID
-BookedBy,
+BookedByUserId,
 BookedForDeptID,
 BookedForCapacity,
 BookingStartDate,
 BookingStartTime,
-BookingEnddate,
+BookingEndDate,
 BookingEndTime,
 BookingStatus
