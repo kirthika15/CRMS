@@ -40,6 +40,10 @@ namespace CRMS.Models
         [Column(TypeName = "bool")]
         public bool BookingStatus { get; set; }
 
+        ConferenceRooms conferenceRooms { get; set; }
 
+        Users users { get; set; }
+
+        Departments departments { get; set; }
     }
 }
