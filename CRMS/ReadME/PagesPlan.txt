@@ -1,0 +1,13 @@
+﻿Screens
+------------
+1) login
+2) Dashboard
+3) Manageusers
+4) ManageRooms - Only visible for facility managers add/remove rooms
+5) Booking screen
+		Booking menu
+		New Booking
+		Edit Booking
+		
+		
+		

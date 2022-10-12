@@ -1,0 +1,40 @@
+﻿Users table
+-------------------
+UserID,
+UserName,
+DepartmentID,
+DepartmentName,
+UserRoleID
+
+UserRole Table
+--------------------
+UserRoleID,
+UserRole
+
+ConferenceRoomType Table
+----------------------
+ConfRoomTypeID,
+ConfRoomType
+
+ConferenceRooms Table
+----------------------
+ConfRoomID,
+ConfRoomName,
+onfRoomTypeID,
+ConfRoomCapacity,
+ConfRoomManagerID,
+ConfRoomLocation
+
+Bookings Table
+-----------------------
+BookingID,
+BookedRoomID,
+ConfRoomID
+BookedBy,
+BookedForDeptID,
+BookedForCapacity,
+BookingStartDate,
+BookingStartTime,
+BookingEnddate,
+BookingEndTime,
+BookingStatus
